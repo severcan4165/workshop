@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.header{
+    padding: 1px;
+}
+.left{
+    float: left;
+    margin-top: 15px;
+
+
+
+}
+.left a{
+    color:black;
+    margin-left: 15px;
+
+
+}
+.right{
+    float: right;
+    margin-top: 15px;
+
+}
+.right a{
+    color:black;
+    margin-right: 15px;
+}
+.right a:hover ,
+.left a:hover{
+    border-bottom: 1px solid black;
+}
+.header-links{
+    margin-right: 15px;
+}
+#appicon{
+    vertical-align: middle;
+opacity: 0.5;
+}
+#appicon:hover{
+    opacity: 1.0;
+}.right button{
+    background-color:#4285f4 ;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 70px;
+    font-weight: bold;
+    border-radius: 2px;
+    cursor: pointer;
+}
+#google{
+    display: block;
+    height: 95px;
+    width: 272px;
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
